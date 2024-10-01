@@ -1,0 +1,102 @@
+/* Tablet size 992px) */
+@media (max-width: 992px) {
+    #tour-information ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #about-artist section {
+        background-image: url("/img/background1.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px; 
+        padding-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #recent-releases ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #merch-store ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #about-artist section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-artist img {
+        width: 70%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #about-artist .text-container {
+        width: 60%;
+    }
+
+    #about-artist h1 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navLogo {
+        display: none;
+    }
+
+    #about-artist section {
+        background-image: url("/img/background1.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px; 
+        padding-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #tour-information ul {
+        grid-template-columns: 1fr;
+    }
+
+    #recent-releases {
+        padding: 30px 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #signup-vip-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sign-up, 
+    #vip-information {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #merch-store ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #about-artist h1 {
+        font-size: 80px;
+    }
+
+    #about-artist .text-container {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,403 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:"Pretendard";
+}
+
+h1 {
+    font-size: 5rem;
+    color: #5484ec;
+    font-family: "Edu Australia VIC WA NT Hand";
+}
+
+/* <!-- ---------------------------------------------------------------------about artist section --> */
+
+#about-artist section {
+    background-image: url("/img/background1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-artist img {
+    width: 500px;
+    display: inline-block;
+    padding: 0 100px;
+}
+
+#about-artist .text-container {
+    width: 500px;
+    color: white;
+}
+
+#about-artist h1 {
+    color: white;
+    font-size: 150px;
+    padding-bottom: 40px;
+}
+
+/* <!-- ---------------------------------------------------------------------footer section --> */
+
+#site-footer {
+    background-color: #5484ec;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.footer-links {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-links h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #E1AD01;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #E1AD01;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #5484ec;
+}
+
+/* ---------------------------------------------------------------------merch store section */
+#merch-store {
+    background-image:url("/img/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+#merch-store h1 {
+    color:white;
+}
+
+#merch-store p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#merch-store ul {
+    display: grid;
+    grid-gap: 20px;
+    list-style: none;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom:2rem;
+}
+
+#merch-store ul li {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+#merch-store ul li img.item-photos {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+#merch-store ul li .text-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#merch-store ul li .text-container p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#merch-store p a {
+    color: #E1AD01;
+    font-weight: bold;
+    text-decoration: none;
+    transition:0.2s;
+}
+
+#merch-store p a:hover {
+    color: #5484ec;
+    transition:0.2s;
+}
+
+/* <!-- ---------------------------------------------------------------------nav section --> */
+
+#nav {
+    margin:40px 20px 40px 20px;
+}
+
+#nav ul {
+    text-align:center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration:underline;
+    color:#5484ec;
+    font-weight:600;
+}
+
+#nav ul li {
+    margin: 0 5%;
+} 
+
+#nav ul #navLogo {
+    width:200px;
+} 
+
+/* <!-- ---------------------------------------------------------------------recent release section --> */
+
+#recent-releases {
+    padding: 40px 20px;
+    margin: 30px auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#recent-releases h1 {
+    color: #5484ec;
+}
+
+#recent-releases .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+#recent-releases ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    list-style: none;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#recent-releases ul li {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+#recent-releases ul li img.album-cover {
+    width:300px;
+}
+
+#recent-releases ul li .text-container {
+    padding: 20px 0 20px 0;
+}
+
+#recent-releases ul li a {
+    font-size: 1.1rem;
+    color: #E1AD01;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+#recent-releases ul li a:hover {
+    color: #5484ec;
+}
+
+#recent-releases p a:hover {
+    color: #5484ec;
+}
+
+/* ---------------------------------------------------------------------sign-up & youtube section */
+
+#signup-vip-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#signup-vip-container .section-titles, .section-subtitles{
+    padding:20px 0 20px 0;
+}
+
+
+#sign-up, #youtube-information {
+    flex: 1;
+    padding: 20px;
+}
+
+#sign-up form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up input, #sign-up button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#sign-up button {
+    background-color: #5484ec;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign-up button:hover {
+    background-color: #4166b2;
+}
+
+#youtube-information ul {
+    padding-left: 20px;
+}
+
+#youtube-information ul li {
+    margin-bottom: 10px;
+}
+
+#youtube-information button {
+    padding: 10px 20px;
+    margin-top:20px;
+    background-color: #5484ec;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#youtube-information button:hover {
+    background-color: #4166b2;
+}
+
+/* <!-- ---------------------------------------------------------------------tour section --> */
+
+#tour-information{
+    margin: 30px 0 30px 0;
+}
+
+#tour-information .text-container {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tour-information .text-container p{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#tour-information ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    width:80%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tour-info {
+    border: 2px solid #5484ec;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.tour-info:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tour-info h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #5484ec;
+    font-family:"Pretendard";
+}
+
+.tour-info h3 {
+    font-size: 1rem;
+    margin-top:10px;
+    font-weight:400;
+}
+
+#tour-information button {
+    display: block;
+    margin: 20px auto auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #5484ec;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tour-information button:hover {
+    background-color: #4166b2;
+}
